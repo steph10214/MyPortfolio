@@ -1,8 +1,17 @@
 body {
   margin: 0px;
   border: 0px;
+  padding-top: 0px;
   font-family: Helvetica;
   background-image: url("./resources/images/mix color background.jpg")
+}
+
+.header {
+  font-family: ;
+  color: black;
+  z-index: 10;
+  display: inline-block;
+  text-align: right;
 }
 
 h1 {
@@ -10,28 +19,17 @@ h1 {
   color: white;
   font-size: 60px;
   display: inline-block;
-  padding-left: 31px;
+  padding-left: 45px;
 }
 
 Header { background-color: #7e4be4;
-  padding: 15px;
-  margin: 3px 5px 15px 5px;
+  padding: 0px;
+  border:  0px;
+  margin:  0px;
   position: fixed;
   z-index: 5;
   display: inline-block;
   width:100%
-
-
-}
-
-.head {
-  font-family: ;
-  color: black;
-  z-index: 10;
-  display: inline-block;
-  text-align: right;
-
-
 }
 
 nav {
@@ -45,7 +43,6 @@ nav {
 nav li {
   display: inline-block;
   text-align: left;
-
 }
 
 nav a {
@@ -59,35 +56,28 @@ nav a {
   text-decoration: none;
 }
 
-h2 {
-  font-family: Helvetica;
-  background-image: url ("./resources/images/mix color background.jpg")
-
-
-}
-
-h3 {
-  font-family: Helvetica;
-
-
-}
-
-p {
-  font-family: Helvetica;
-
-
-}
-
-
-
 div {
 padding-top: 230px;
 text-align: center;
-background-image: url("./resources/images/mix color background.jpg")
+font-family: Helvetica;
 }
 
+h2 {
+}
+
+h3{
+
+}
+
+
+p {
+
+}
+
+
+
 ul li {
-  text-align: left;
+  text-align: center;
   display: inline block;
 }
 
@@ -106,7 +96,4 @@ color: darkturquoise;
 span {
   color: turquoise;
   font-weight: bold;
-}
-.toppage {
-  background-image: url("resources/images/mix color background.jpg")
 }

@@ -1,16 +1,73 @@
 h1 {
-  font-family: helvetica
-  
+  font-family: Helvetica;
+  color: white;
+  font-size: 50px;
+  display: inline-block;
+
+
+}
+
+Header { background-color: turquoise;
+  padding: 15px;
+  margin: 3px 5px 15px 5px;
+  position: fixed;
+  z-index: 5;
+  display: inline-block;
+  width:100%
+}
+
+.head {
+  font-family: ;
+  color: black;
+  font-size: 18px;
+  z-index: 10;
+  display: inline-block;
+
+
+}
+
+nav {
+  text-align: left;
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  top: 150px;
+}
+
+nav li {
+  display: inline-block;
+  text-align: left;
+
 }
 
 nav a {
-
+  font-family: Helvetica;
+  font-weight: bold;
+  color: white;
+  background-color: darkturquoise;
+  border: thin solid turquoise;
+  padding: 10px;
+  text-align: center;
 }
 
 h2 {
+  font-family: Helvetica;
+  text-align: left;
 
 }
 
 h3 {
+  font-family: Helvetica;
+  text-align: center
 
+}
+
+p {
+  font-family: Helvetica;
+
+
+}
+
+div {
+top: 300px;
 }

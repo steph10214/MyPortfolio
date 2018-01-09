@@ -1,10 +1,15 @@
+body {
+  margin: 0px;
+  border: 0px;
+  font-family: Helvetica;
+  background-image: url("");
+}
+
 h1 {
   font-family: Helvetica;
   color: white;
   font-size: 50px;
   display: inline-block;
-
-
 }
 
 Header { background-color: turquoise;
@@ -14,6 +19,8 @@ Header { background-color: turquoise;
   z-index: 5;
   display: inline-block;
   width:100%
+
+
 }
 
 .head {
@@ -48,17 +55,18 @@ nav a {
   border: thin solid turquoise;
   padding: 10px;
   text-align: center;
+  text-decoration: none;
 }
 
 h2 {
   font-family: Helvetica;
-  text-align: left;
+
 
 }
 
 h3 {
   font-family: Helvetica;
-  text-align: center
+
 
 }
 
@@ -68,6 +76,30 @@ p {
 
 }
 
+
+
 div {
-top: 300px;
+padding-top: 230px;
+text-align: center;
+}
+
+ul li {
+  text-align: left;
+  display: inline block;
+}
+
+.homeimage {
+  display: inline block;
+  text-align: right;
+
+}
+
+p a {
+text-decoration: none;
+font-weight: bold;
+color: darkturquoise;
+}
+
+span {
+  color: turquoise;
 }
